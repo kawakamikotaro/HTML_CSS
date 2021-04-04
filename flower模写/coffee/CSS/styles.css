@@ -1,0 +1,391 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  background-image: url(../img/img.01.jpg);
+  background-size: cover;
+  background-position-x: 50%;
+  background-position-y: 50%;
+  color: white;
+  height: 700px;
+}
+
+.container {
+  padding: 0;
+}
+
+.container > i {
+  margin-top: 200px;
+}
+
+.container .main-title {
+  font-weight: bold;
+  letter-spacing: 5px;
+  margin-bottom: 15px;
+}
+
+.container .title {
+  font-weight: bold;
+  font-size: 20px;
+  margin-bottom: 200px;
+}
+
+.download {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-bottom: 50px;
+}
+
+.download-parts {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background-color: #000;
+  border-radius: 10px;
+}
+
+.download-parts:hover {
+  text-decoration: none;
+}
+
+.download i {
+  font-size: 30px;
+  margin-right: 5px;
+}
+
+.attention {
+  font-size: 13px;
+}
+
+.attention > i {
+  font-size: 1px;
+}
+
+.case {
+  height: 600px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.case-items {
+  background-size: cover;
+  width: 100%;
+  padding: 300px 40px 0px;
+}
+
+.case-items h1 {
+  font-size: 25px;
+}
+
+.case1 {
+  background-image: url(../img/img.02.jpg);
+}
+
+.case2 {
+  background-image: url(../img/imag.03.jpg);
+  padding: 50px 40px 0px;
+}
+
+.case3 {
+  background-image: url(../img/imf.04.jpg);
+}
+
+.price {
+  height: 550px;
+  margin: 0;
+  padding: 0;
+}
+
+.price h2 {
+  font-size: 20px;
+  line-height: 2em;
+}
+
+.price .cost {
+  background-color: lightgray;
+  padding-top: 50px;
+}
+
+.price .cost .trial-demo {
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  background-image: url(../img/img.06.jpg);
+  background-size: cover;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.price .cost .trial-demo .free-trial {
+  background-color: orange;
+  border-radius: 10px;
+  height: 30px;
+  width: 150px;
+  padding-top: 2.5px;
+  position: relative;
+  left: 25px;
+}
+
+.price .cost .trial-explain {
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+
+.price .pase {
+  background-color: pink;
+  width: 200px;
+}
+
+.price .pase i {
+  font-size: 200px;
+}
+
+.price .pase-explain {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.what-flower {
+  background-image: url(../img/img.07.jpg);
+  background-size: cover;
+  height: 700px;
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.what-flower .flower {
+  padding-top: 150px;
+  text-align: center;
+  letter-spacing: 0.2em;
+}
+
+.what-flower .flower > h1 {
+  font-size: 30px;
+  margin-bottom: 50px;
+}
+
+.what-flower .flower-case {
+  padding-right: 30px;
+  margin-bottom: 25px;
+}
+
+.what-flower .flower-case h1 {
+  font-size: 25px;
+}
+
+.what-flower .flower-case p {
+  text-align: start;
+  font-size: 13px;
+}
+
+.vase {
+  margin: 0;
+  padding: 0;
+  color: white;
+  text-align: center;
+  background-image: url(../img/img.08.jpg);
+  background-size: cover;
+  height: 800px;
+}
+
+.vase-select {
+  margin-top: 80px;
+}
+
+.vase-select h1 {
+  font-size: 25px;
+  line-height: 1.5em;
+}
+
+.vase-select .discount {
+  margin: 20px auto;
+  margin-bottom: 40px;
+  background-color: gray;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 2px 4px;
+}
+
+.vase-select p {
+  width: 100%;
+}
+
+.vase-select .vase-image {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 20px;
+}
+
+.vase-select .vase-image img {
+  width: 100px;
+  height: 100px;
+}
+
+.vase-select .price-explain {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: start;
+}
+
+.vase-select .price-explain .week {
+  border: solid 3px white;
+  padding: 3px 5px;
+}
+
+.vase-select .price-explain .vase-price {
+  margin-left: 30px;
+}
+
+.vase-select .application {
+  text-align: start;
+  margin-top: 30px;
+}
+
+.continue {
+  height: 400px;
+  text-align: center;
+}
+
+.continue > h1 {
+  font-size: 30px;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.continue .continue-list {
+  margin: 0;
+}
+
+.continue-items {
+  padding: 0px 20px;
+}
+
+.continue-items i {
+  font-size: 50px;
+  margin-bottom: 30px;
+}
+
+.continue-items h1 {
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: bold;
+}
+
+.continue-items p {
+  font-weight: bold;
+  padding: 0 10px;
+  font-size: 15px;
+}
+
+.last {
+  height: 400px;
+  background-image: url(../img/img.05.jpg);
+  background-size: cover;
+  color: white;
+  position: relative;
+}
+
+.last .main-icon {
+  position: absolute;
+  left: 170px;
+  top: 150px;
+  text-align: center;
+}
+
+.last .main-icon i {
+  margin-bottom: 5px;
+}
+
+.last .main-icon-title {
+  font-size: 25px;
+  font-weight: bold;
+  letter-spacing: 0.3em;
+  font-family: serif;
+  margin-bottom: 5px;
+}
+
+.last .main-icon .title {
+  font-size: 15px;
+}
+
+.navbar {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 80px;
+  background-color: #373737;
+  color: white;
+}
+
+.navbar ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 50px;
+}
+
+.navbar ul:hover {
+  cursor: pointer;
+}
+
+.navbar ul li {
+  list-style-type: none;
+  margin-right: 25px;
+  font-size: 15px;
+}
+
+.navbar ul li :last-child {
+  margin-right: 0;
+}
+
+.navbar ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.navbar i {
+  background-color: lightgreen;
+  font-size: 30px;
+  height: 55px;
+  width: 55px;
+  text-align: center;
+  padding: 12.5px;
+  border-radius: 50%;
+  margin-right: 15px;
+  color: lightsalmon;
+}
+
+footer {
+  height: 300px;
+  background-color: #373737;
+  display: table;
+  width: 100%;
+}
+
+footer .footer {
+  text-align: center;
+  color: white;
+  display: table-cell;
+  vertical-align: middle;
+}
+/*# sourceMappingURL=styles.css.map */
